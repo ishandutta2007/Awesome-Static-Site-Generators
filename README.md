@@ -29,7 +29,7 @@
 - [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [🏢 SaaS & Hosted Website Building Platforms](#-saas--hosted-website-building-platforms)
 - [🚀 Top Open-Source Static Site Generators](#-top-open-source-static-site-generators)
-  - [⭐ Open-Source Ranked by GitHub Stars](#-open-source-ranked-by-github-stars)
+  - [⭐ Open-Source Ranked by GitHub_Stars](#-open-source-ranked-by-github-stars)
   - [🔍 Detailed Framework Breakdowns](#-detailed-framework-breakdowns)
 - [📊 Architectural Comparison & Decision Matrix](#-architectural-comparison--decision-matrix)
 - [🛠️ Key Evaluation Criteria for SSGs](#️-key-evaluation-criteria-for-ssgs)
@@ -73,37 +73,37 @@ The table below provides a comprehensive comparison of leading SaaS and managed 
 
 Open-source static site generators empower developers to maintain 100% content ownership, avoid proprietary vendor lock-in, automate continuous integration via Git hooks, and publish globally across edge CDNs.
 
-### ⭐ Open-Source Ranked by GitHub Stars
+### ⭐ Open-Source Ranked by GitHub_Stars
 
-Below is the verified ranking of top open-source static site generators and documentation frameworks, sorted in **descending order by GitHub star count**. Each star badge links directly to that repository's stargazers page:
+Below is the verified ranking of top open-source static site generators and documentation frameworks, sorted in **descending order by GitHub Stars_Count**. Each Stars_Badge links directly to that repository's stargazers page:
 
-1. ⚛️ **[Next.js](https://github.com/vercel/next.js)** [![GitHub stars](https://img.shields.io/github/stars/vercel/next.js?style=social&color=white)](https://github.com/vercel/next.js/stargazers) — React framework powering hybrid SSG, Server Components, and edge routing.
-2. ⚡ **[Hugo](https://github.com/gohugoio/hugo)** [![GitHub stars](https://img.shields.io/github/stars/gohugoio/hugo?style=social&color=white)](https://github.com/gohugoio/hugo/stargazers) — The world's fastest Go-based static engine (~1ms per page build times).
-3. 🦖 **[Docusaurus](https://github.com/facebook/docusaurus)** [![GitHub stars](https://img.shields.io/github/stars/facebook/docusaurus?style=social&color=white)](https://github.com/facebook/docusaurus/stargazers) — Meta's React-based documentation powerhouse with i18n and versioning.
-4. 🚀 **[Astro](https://github.com/withastro/astro)** [![GitHub stars](https://img.shields.io/github/stars/withastro/astro?style=social&color=white)](https://github.com/withastro/astro/stargazers) — Modern web framework pioneering Islands Architecture and zero-JS defaults.
-5. 💚 **[Nuxt](https://github.com/nuxt/nuxt)** [![GitHub stars](https://img.shields.io/github/stars/nuxt/nuxt?style=social&color=white)](https://github.com/nuxt/nuxt/stargazers) — The intuitive Vue.js framework supporting static site generation and ISR.
-6. 🟣 **[Gatsby](https://github.com/gatsbyjs/gatsby)** [![GitHub stars](https://img.shields.io/github/stars/gatsbyjs/gatsby?style=social&color=white)](https://github.com/gatsbyjs/gatsby/stargazers) — React and GraphQL static site generator with an extensive plugin registry.
-7. 👻 **[Ghost](https://github.com/TryGhost/Ghost)** [![GitHub stars](https://img.shields.io/github/stars/TryGhost/Ghost?style=social&color=white)](https://github.com/TryGhost/Ghost/stargazers) — Professional Node.js headless publishing platform with native newsletters.
-8. 🧪 **[Jekyll](https://github.com/jekyll/jekyll)** [![GitHub stars](https://img.shields.io/github/stars/jekyll/jekyll?style=social&color=white)](https://github.com/jekyll/jekyll/stargazers) — The Ruby pioneer that started Jamstack, natively integrated with GitHub Pages.
-9. 🔮 **[Hexo](https://github.com/hexojs/hexo)** [![GitHub stars](https://img.shields.io/github/stars/hexojs/hexo?style=social&color=white)](https://github.com/hexojs/hexo/stargazers) — Ultra-fast, modular Node.js blogging framework with vast theme ecosystem.
-10. 📝 **[Slate](https://github.com/slatedocs/slate)** [![GitHub stars](https://img.shields.io/github/stars/slatedocs/slate?style=social&color=white)](https://github.com/slatedocs/slate/stargazers) — Clean, responsive, three-column API documentation generator in Ruby.
-11. 📄 **[Docsify](https://github.com/docsifyjs/docsify)** [![GitHub stars](https://img.shields.io/github/stars/docsifyjs/docsify?style=social&color=white)](https://github.com/docsifyjs/docsify/stargazers) — Lightweight, dynamic documentation site generator without static HTML build steps.
-12. 🎨 **[Material for MkDocs](https://github.com/squidfunk/mkdocs-material)** [![GitHub stars](https://img.shields.io/github/stars/squidfunk/mkdocs-material?style=social&color=white)](https://github.com/squidfunk/mkdocs-material/stargazers) — State-of-the-art documentation theme and SSG distribution for MkDocs.
-13. 🐍 **[MkDocs](https://github.com/mkdocs/mkdocs)** [![GitHub stars](https://img.shields.io/github/stars/mkdocs/mkdocs?style=social&color=white)](https://github.com/mkdocs/mkdocs/stargazers) — Fast, simple, Python-powered static documentation generator configured via YAML.
-14. 🧡 **[SvelteKit](https://github.com/sveltejs/kit)** [![GitHub stars](https://img.shields.io/github/stars/sveltejs/kit?style=social&color=white)](https://github.com/sveltejs/kit/stargazers) — Official Svelte meta-framework with adapter-static for zero-virtual-DOM outputs.
-15. 🎈 **[Eleventy (11ty)](https://github.com/11ty/eleventy)** [![GitHub stars](https://img.shields.io/github/stars/11ty/eleventy?style=social&color=white)](https://github.com/11ty/eleventy/stargazers) — Zero-client-JS Node.js static site generator with multi-language templating.
-16. ⚡ **[VitePress](https://github.com/vuejs/vitepress)** [![GitHub stars](https://img.shields.io/github/stars/vuejs/vitepress?style=social&color=white)](https://github.com/vuejs/vitepress/stargazers) — Vite-powered static site generator from the Vue team for high-speed documentation.
-17. 🦀 **[Zola](https://github.com/getzola/zola)** [![GitHub stars](https://img.shields.io/github/stars/getzola/zola?style=social&color=white)](https://github.com/getzola/zola/stargazers) — Blazing-fast, single-binary static site generator crafted in Rust with Tera templates.
-18. 💎 **[Quartz](https://github.com/jackyzha0/quartz)** [![GitHub stars](https://img.shields.io/github/stars/jackyzha0/quartz?style=social&color=white)](https://github.com/jackyzha0/quartz/stargazers) — Publish digital gardens and Obsidian Markdown vaults directly as fast static websites.
-19. 🐧 **[Pelican](https://github.com/getpelican/pelican)** [![GitHub stars](https://img.shields.io/github/stars/getpelican/pelican?style=social&color=white)](https://github.com/getpelican/pelican/stargazers) — Python static site generator supporting Markdown and reStructuredText with Jinja2.
-20. 🔨 **[Metalsmith](https://github.com/metalsmith/metalsmith)** [![GitHub stars](https://img.shields.io/github/stars/metalsmith/metalsmith?style=social&color=white)](https://github.com/metalsmith/metalsmith/stargazers) — An extremely pluggable, simple Node.js static site and directory manipulation engine.
-21. 🖥️ **[Publii](https://github.com/GetPublii/Publii)** [![GitHub stars](https://img.shields.io/github/stars/GetPublii/Publii?style=social&color=white)](https://github.com/GetPublii/Publii/stargazers) — Desktop static CMS application with visual WYSIWYG editing for offline authoring.
-22. 💎 **[Middleman](https://github.com/middleman/middleman)** [![GitHub stars](https://img.shields.io/github/stars/middleman/middleman?style=social&color=white)](https://github.com/middleman/middleman/stargazers) — Established Ruby static site generator utilizing all modern web development shortcuts.
-23. ⚛️ **[Phenomic](https://github.com/MoOx/phenomic)** [![GitHub stars](https://img.shields.io/github/stars/MoOx/phenomic?style=social&color=white)](https://github.com/MoOx/phenomic/stargazers) — Modular website compiler for React and modern JavaScript ecosystems.
-24. 🦕 **[Lume](https://github.com/lumeland/lume)** [![GitHub stars](https://img.shields.io/github/stars/lumeland/lume?style=social&color=white)](https://github.com/lumeland/lume/stargazers) — Fast and flexible static site generator built for Deno with zero-dependency TypeScript.
-25. 🧩 **[Nanoc](https://github.com/nanoc/nanoc)** [![GitHub stars](https://img.shields.io/github/stars/nanoc/nanoc?style=social&color=white)](https://github.com/nanoc/nanoc/stargazers) — Highly customizable Ruby tool that transforms raw content into polished websites.
-26. ⚙️ **[Cobalt](https://github.com/cobalt-org/cobalt.rs)** [![GitHub stars](https://img.shields.io/github/stars/cobalt-org/cobalt.rs?style=social&color=white)](https://github.com/cobalt-org/cobalt.rs/stargazers) — Static site generator written in Rust designed for simplicity, speed, and safety.
-27. 🌉 **[Bridgetown](https://github.com/bridgetownrb/bridgetown)** [![GitHub stars](https://img.shields.io/github/stars/bridgetownrb/bridgetown?style=social&color=white)](https://github.com/bridgetownrb/bridgetown/stargazers) — Next-generation Ruby web framework with esbuild, SSR, and Jamstack static compilation.
+1. ⚛️ **[Next.js](https://github.com/vercel/next.js)** [![GitHub_Stars](https://img.shields.io/github/stars/vercel/next.js?style=social&color=white)](https://github.com/vercel/next.js/stargazers) — React framework powering hybrid SSG, Server Components, and edge routing.
+2. ⚡ **[Hugo](https://github.com/gohugoio/hugo)** [![GitHub_Stars](https://img.shields.io/github/stars/gohugoio/hugo?style=social&color=white)](https://github.com/gohugoio/hugo/stargazers) — The world's fastest Go-based static engine (~1ms per page build times).
+3. 🦖 **[Docusaurus](https://github.com/facebook/docusaurus)** [![GitHub_Stars](https://img.shields.io/github/stars/facebook/docusaurus?style=social&color=white)](https://github.com/facebook/docusaurus/stargazers) — Meta's React-based documentation powerhouse with i18n and versioning.
+4. 🚀 **[Astro](https://github.com/withastro/astro)** [![GitHub_Stars](https://img.shields.io/github/stars/withastro/astro?style=social&color=white)](https://github.com/withastro/astro/stargazers) — Modern web framework pioneering Islands Architecture and zero-JS defaults.
+5. 💚 **[Nuxt](https://github.com/nuxt/nuxt)** [![GitHub_Stars](https://img.shields.io/github/stars/nuxt/nuxt?style=social&color=white)](https://github.com/nuxt/nuxt/stargazers) — The intuitive Vue.js framework supporting static site generation and ISR.
+6. 🟣 **[Gatsby](https://github.com/gatsbyjs/gatsby)** [![GitHub_Stars](https://img.shields.io/github/stars/gatsbyjs/gatsby?style=social&color=white)](https://github.com/gatsbyjs/gatsby/stargazers) — React and GraphQL static site generator with an extensive plugin registry.
+7. 👻 **[Ghost](https://github.com/TryGhost/Ghost)** [![GitHub_Stars](https://img.shields.io/github/stars/TryGhost/Ghost?style=social&color=white)](https://github.com/TryGhost/Ghost/stargazers) — Professional Node.js headless publishing platform with native newsletters.
+8. 🧪 **[Jekyll](https://github.com/jekyll/jekyll)** [![GitHub_Stars](https://img.shields.io/github/stars/jekyll/jekyll?style=social&color=white)](https://github.com/jekyll/jekyll/stargazers) — The Ruby pioneer that started Jamstack, natively integrated with GitHub Pages.
+9. 🔮 **[Hexo](https://github.com/hexojs/hexo)** [![GitHub_Stars](https://img.shields.io/github/stars/hexojs/hexo?style=social&color=white)](https://github.com/hexojs/hexo/stargazers) — Ultra-fast, modular Node.js blogging framework with vast theme ecosystem.
+10. 📝 **[Slate](https://github.com/slatedocs/slate)** [![GitHub_Stars](https://img.shields.io/github/stars/slatedocs/slate?style=social&color=white)](https://github.com/slatedocs/slate/stargazers) — Clean, responsive, three-column API documentation generator in Ruby.
+11. 📄 **[Docsify](https://github.com/docsifyjs/docsify)** [![GitHub_Stars](https://img.shields.io/github/stars/docsifyjs/docsify?style=social&color=white)](https://github.com/docsifyjs/docsify/stargazers) — Lightweight, dynamic documentation site generator without static HTML build steps.
+12. 🎨 **[Material for MkDocs](https://github.com/squidfunk/mkdocs-material)** [![GitHub_Stars](https://img.shields.io/github/stars/squidfunk/mkdocs-material?style=social&color=white)](https://github.com/squidfunk/mkdocs-material/stargazers) — State-of-the-art documentation theme and SSG distribution for MkDocs.
+13. 🐍 **[MkDocs](https://github.com/mkdocs/mkdocs)** [![GitHub_Stars](https://img.shields.io/github/stars/mkdocs/mkdocs?style=social&color=white)](https://github.com/mkdocs/mkdocs/stargazers) — Fast, simple, Python-powered static documentation generator configured via YAML.
+14. 🧡 **[SvelteKit](https://github.com/sveltejs/kit)** [![GitHub_Stars](https://img.shields.io/github/stars/sveltejs/kit?style=social&color=white)](https://github.com/sveltejs/kit/stargazers) — Official Svelte meta-framework with adapter-static for zero-virtual-DOM outputs.
+15. 🎈 **[Eleventy (11ty)](https://github.com/11ty/eleventy)** [![GitHub_Stars](https://img.shields.io/github/stars/11ty/eleventy?style=social&color=white)](https://github.com/11ty/eleventy/stargazers) — Zero-client-JS Node.js static site generator with multi-language templating.
+16. ⚡ **[VitePress](https://github.com/vuejs/vitepress)** [![GitHub_Stars](https://img.shields.io/github/stars/vuejs/vitepress?style=social&color=white)](https://github.com/vuejs/vitepress/stargazers) — Vite-powered static site generator from the Vue team for high-speed documentation.
+17. 🦀 **[Zola](https://github.com/getzola/zola)** [![GitHub_Stars](https://img.shields.io/github/stars/getzola/zola?style=social&color=white)](https://github.com/getzola/zola/stargazers) — Blazing-fast, single-binary static site generator crafted in Rust with Tera templates.
+18. 💎 **[Quartz](https://github.com/jackyzha0/quartz)** [![GitHub_Stars](https://img.shields.io/github/stars/jackyzha0/quartz?style=social&color=white)](https://github.com/jackyzha0/quartz/stargazers) — Publish digital gardens and Obsidian Markdown vaults directly as fast static websites.
+19. 🐧 **[Pelican](https://github.com/getpelican/pelican)** [![GitHub_Stars](https://img.shields.io/github/stars/getpelican/pelican?style=social&color=white)](https://github.com/getpelican/pelican/stargazers) — Python static site generator supporting Markdown and reStructuredText with Jinja2.
+20. 🔨 **[Metalsmith](https://github.com/metalsmith/metalsmith)** [![GitHub_Stars](https://img.shields.io/github/stars/metalsmith/metalsmith?style=social&color=white)](https://github.com/metalsmith/metalsmith/stargazers) — An extremely pluggable, simple Node.js static site and directory manipulation engine.
+21. 🖥️ **[Publii](https://github.com/GetPublii/Publii)** [![GitHub_Stars](https://img.shields.io/github/stars/GetPublii/Publii?style=social&color=white)](https://github.com/GetPublii/Publii/stargazers) — Desktop static CMS application with visual WYSIWYG editing for offline authoring.
+22. 💎 **[Middleman](https://github.com/middleman/middleman)** [![GitHub_Stars](https://img.shields.io/github/stars/middleman/middleman?style=social&color=white)](https://github.com/middleman/middleman/stargazers) — Established Ruby static site generator utilizing all modern web development shortcuts.
+23. ⚛️ **[Phenomic](https://github.com/MoOx/phenomic)** [![GitHub_Stars](https://img.shields.io/github/stars/MoOx/phenomic?style=social&color=white)](https://github.com/MoOx/phenomic/stargazers) — Modular website compiler for React and modern JavaScript ecosystems.
+24. 🦕 **[Lume](https://github.com/lumeland/lume)** [![GitHub_Stars](https://img.shields.io/github/stars/lumeland/lume?style=social&color=white)](https://github.com/lumeland/lume/stargazers) — Fast and flexible static site generator built for Deno with zero-dependency TypeScript.
+25. 🧩 **[Nanoc](https://github.com/nanoc/nanoc)** [![GitHub_Stars](https://img.shields.io/github/stars/nanoc/nanoc?style=social&color=white)](https://github.com/nanoc/nanoc/stargazers) — Highly customizable Ruby tool that transforms raw content into polished websites.
+26. ⚙️ **[Cobalt](https://github.com/cobalt-org/cobalt.rs)** [![GitHub_Stars](https://img.shields.io/github/stars/cobalt-org/cobalt.rs?style=social&color=white)](https://github.com/cobalt-org/cobalt.rs/stargazers) — Static site generator written in Rust designed for simplicity, speed, and safety.
+27. 🌉 **[Bridgetown](https://github.com/bridgetownrb/bridgetown)** [![GitHub_Stars](https://img.shields.io/github/stars/bridgetownrb/bridgetown?style=social&color=white)](https://github.com/bridgetownrb/bridgetown/stargazers) — Next-generation Ruby web framework with esbuild, SSR, and Jamstack static compilation.
 
 ---
 
@@ -180,7 +180,7 @@ Contributions to this ecosystem directory are warmly welcomed! Please follow the
 1. 🍴 Fork this repository to your GitHub profile.
 2. 🌿 Create a feature branch: `git checkout -b feature/add-new-ssg`.
 3. ✏️ Add or update tools in `README.md` following the structured tabular or list format.
-4. 🔗 Ensure all links are active, descriptions are objective, and star badges use `style=social&color=white`.
+4. 🔗 Ensure all links are active, descriptions are objective, and Stars_Badges use `style=social&color=white`.
 5. 📨 Open a Pull Request with a clear summary of your additions.
 
 ---
@@ -209,7 +209,7 @@ Your generous sponsorship directly supports active maintenance, link audits, and
 
 - This repository is a community-curated directory intended solely for educational, reference, and informational purposes. Mention of specific SaaS platforms or open-source software does not constitute a formal commercial endorsement.
 - All product names, logos, trademarks, and registered trademarks belong to their respective corporate owners.
-- Benchmark timings, star counts, market valuations, and pricing tiers reflect public records as of 2026 and may change over time.
+- Benchmark timings, Stars_Counts, market valuations, and pricing tiers reflect public records as of 2026 and may change over time.
 
 ---
 

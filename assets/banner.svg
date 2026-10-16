@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#070b14"/>
+    </linearGradient>
+
+    <!-- Aurora Gradients -->
+    <radialGradient id="aurora1" cx="30%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#4f46e5" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aurora2" cx="70%" cy="60%" r="65%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aurora3" cx="50%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#a855f7" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="45%" stop-color="#e0e7ff"/>
+      <stop offset="80%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3"/>
+    </pattern>
+
+    <style>
+      @keyframes floatSlow1 {
+        0% { transform: translate(0px, 0px) scale(1); }
+        50% { transform: translate(30px, -20px) scale(1.08); }
+        100% { transform: translate(0px, 0px) scale(1); }
+      }
+      @keyframes floatSlow2 {
+        0% { transform: translate(0px, 0px) scale(1); }
+        50% { transform: translate(-35px, 25px) scale(1.12); }
+        100% { transform: translate(0px, 0px) scale(1); }
+      }
+      @keyframes cardDrift {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-12px); }
+        100% { transform: translateY(0px); }
+      }
+      @keyframes cardDriftAlt {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(12px); }
+        100% { transform: translateY(0px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.85; }
+      }
+      @keyframes beamSlide {
+        0% { transform: translateX(-1200px); }
+        100% { transform: translateX(1200px); }
+      }
+      .anim-orb1 { animation: floatSlow1 12s ease-in-out infinite; }
+      .anim-orb2 { animation: floatSlow2 15s ease-in-out infinite; }
+      .anim-card1 { animation: cardDrift 7s ease-in-out infinite; }
+      .anim-card2 { animation: cardDriftAlt 9s ease-in-out infinite; }
+      .anim-glow { animation: pulseGlow 4s ease-in-out infinite; }
+      .anim-beam { animation: beamSlide 6s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)"/>
+  
+  <!-- Grid Matrix Backdrop -->
+  <rect width="1200" height="360" rx="16" fill="url(#grid)"/>
+
+  <!-- Dynamic Animated Light Orbs in Background -->
+  <g filter="blur(40px)">
+    <circle cx="280" cy="110" r="180" fill="url(#aurora1)" class="anim-orb1"/>
+    <circle cx="920" cy="200" r="210" fill="url(#aurora2)" class="anim-orb2"/>
+    <circle cx="600" cy="280" r="150" fill="url(#aurora3)" class="anim-orb1"/>
+  </g>
+
+  <!-- Background Floating Dynamic Elements (low opacity, strictly behind text) -->
+  <g opacity="0.45" class="anim-card1">
+    <rect x="880" y="45" width="230" height="52" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1.2"/>
+    <circle cx="905" cy="71" r="6" fill="#10b981"/>
+    <text x="922" y="76" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">STATIC PIPELINE: ACTIVE</text>
+  </g>
+  <g opacity="0.4" class="anim-card2">
+    <rect x="80" y="270" width="220" height="48" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1.2"/>
+    <circle cx="102" cy="294" r="6" fill="#38bdf8"/>
+    <text x="118" y="299" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">JAMSTACK ARCHITECTURE</text>
+  </g>
+  <g opacity="0.35" class="anim-card1">
+    <rect x="960" y="260" width="170" height="46" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1.2"/>
+    <circle cx="982" cy="283" r="6" fill="#ec4899"/>
+    <text x="998" y="288" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">ZERO JS RUNTIME</text>
+  </g>
+
+  <!-- Dynamic Glowing Scan Line -->
+  <g opacity="0.6">
+    <line x1="0" y1="358" x2="1200" y2="358" stroke="#334155" stroke-width="2"/>
+    <line x1="0" y1="358" x2="300" y2="358" stroke="url(#accentGrad)" stroke-width="3" class="anim-beam"/>
+  </g>
+
+  <!-- FOREGROUND LAYER: Content rendered in front of all dynamic/animated elements -->
+  <g id="foreground-content">
+    <!-- Top Pill / Badge -->
+    <g transform="translate(60, 42)">
+      <rect width="260" height="30" rx="15" fill="url(#pillGrad)" stroke="#6366f1" stroke-width="1.2"/>
+      <circle cx="16" cy="15" r="4.5" fill="#38bdf8" class="anim-glow"/>
+      <text x="28" y="20" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">CURATED RESOURCE HUB</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="60" y="132" fill="url(#titleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="-0.5">Awesome Static Site Generators</text>
+
+    <!-- Subtitle -->
+    <text x="60" y="174" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500">The Definitive Directory of Top Open-Source SSGs, SaaS Builders &amp; Jamstack Ecosystems</text>
+
+    <!-- Feature Pillars in Foreground -->
+    <g transform="translate(60, 222)">
+      <!-- Pill 1: Markdown-Native -->
+      <g transform="translate(0, 0)">
+        <rect width="180" height="42" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+        <text x="20" y="26" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">⚡ Millisecond Builds</text>
+      </g>
+      <!-- Pill 2: Markdown -->
+      <g transform="translate(196, 0)">
+        <rect width="185" height="42" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+        <text x="20" y="26" fill="#a5b4fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">📝 Markdown Native</text>
+      </g>
+      <!-- Pill 3: Git-Driven -->
+      <g transform="translate(397, 0)">
+        <rect width="175" height="42" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+        <text x="20" y="26" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">🐙 Git-Driven CI/CD</text>
+      </g>
+      <!-- Pill 4: Global CDN -->
+      <g transform="translate(588, 0)">
+        <rect width="195" height="42" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+        <text x="20" y="26" fill="#f472b6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">🌐 Global Edge Deploy</text>
+      </g>
+    </g>
+
+    <!-- Meta Stats Bar on Right -->
+    <g transform="translate(850, 115)">
+      <!-- Border Box -->
+      <rect width="290" height="110" rx="14" fill="#0f172a" fill-opacity="0.85" stroke="#334155" stroke-width="1.2"/>
+      
+      <!-- Metric 1 -->
+      <text x="25" y="42" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="800">500k+</text>
+      <text x="25" y="62" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">COMMUNITY STARS</text>
+
+      <!-- Divider -->
+      <line x1="145" y1="20" x2="145" y2="90" stroke="#1e293b" stroke-width="1.5"/>
+
+      <!-- Metric 2 -->
+      <text x="170" y="42" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="800">25+ SSGs</text>
+      <text x="170" y="62" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">TOP FRAMEWORKS</text>
+
+      <text x="25" y="93" fill="#10b981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700">✓ OPEN-SOURCE &amp; SAAS COMPARED</text>
+    </g>
+  </g>
+
+  <!-- Border Frame Outline -->
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="15.5" fill="none" stroke="#334155" stroke-width="1" stroke-opacity="0.6"/>
+</svg>

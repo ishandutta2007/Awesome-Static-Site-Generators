@@ -1,6 +1,6 @@
 # Awesome-Static-Site-Generators
 
-# Top Static Site Generators Ecosystem
+## Top Static Site Generators Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Markdown-to-HTML Compilation, Git-Based Workflows & Jamstack Delivery*  
